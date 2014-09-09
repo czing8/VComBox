@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8C8E38C19BF0C8C00F06F13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C8E38B19BF0C8C00F06F13 /* Foundation.framework */; };
+		F8C8E38E19BF0C8C00F06F13 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C8E38D19BF0C8C00F06F13 /* CoreGraphics.framework */; };
+		F8C8E39019BF0C8C00F06F13 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C8E38F19BF0C8C00F06F13 /* UIKit.framework */; };
+		F8C8E39619BF0C8C00F06F13 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8C8E39419BF0C8C00F06F13 /* InfoPlist.strings */; };
+		F8C8E39819BF0C8C00F06F13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C8E39719BF0C8C00F06F13 /* main.m */; };
+		F8C8E39C19BF0C8C00F06F13 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C8E39B19BF0C8C00F06F13 /* AppDelegate.m */; };
+		F8C8E39F19BF0C8C00F06F13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8C8E39D19BF0C8C00F06F13 /* Main.storyboard */; };
+		F8C8E3A219BF0C8C00F06F13 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C8E3A119BF0C8C00F06F13 /* ViewController.m */; };
+		F8C8E3A419BF0C8C00F06F13 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8C8E3A319BF0C8C00F06F13 /* Images.xcassets */; };
+		F8C8E3AB19BF0C8C00F06F13 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C8E3AA19BF0C8C00F06F13 /* XCTest.framework */; };
+		F8C8E3AC19BF0C8C00F06F13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C8E38B19BF0C8C00F06F13 /* Foundation.framework */; };
+		F8C8E3AD19BF0C8C00F06F13 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C8E38F19BF0C8C00F06F13 /* UIKit.framework */; };
+		F8C8E3B519BF0C8C00F06F13 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8C8E3B319BF0C8C00F06F13 /* InfoPlist.strings */; };
+		F8C8E3B719BF0C8C00F06F13 /* ComBoxViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C8E3B619BF0C8C00F06F13 /* ComBoxViewTests.m */; };
+		F8C8E3C619BF0CFD00F06F13 /* VComBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C8E3C519BF0CFD00F06F13 /* VComBoxView.m */; };
+		F8C8E3C919BF0DBE00F06F13 /* down_dark0.png in Resources */ = {isa = PBXBuildFile; fileRef = F8C8E3C719BF0DBE00F06F13 /* down_dark0.png */; };
+		F8C8E3CA19BF0DBE00F06F13 /* area.plist in Resources */ = {isa = PBXBuildFile; fileRef = F8C8E3C819BF0DBE00F06F13 /* area.plist */; };
+		F8C8E3CD19BF115400F06F13 /* VComBoxContainView.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C8E3CC19BF115400F06F13 /* VComBoxContainView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8C8E3AE19BF0C8C00F06F13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8C8E38019BF0C8C00F06F13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8C8E38719BF0C8C00F06F13;
+			remoteInfo = ComBoxView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F8C8E38819BF0C8C00F06F13 /* ComBoxView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComBoxView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8C8E38B19BF0C8C00F06F13 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F8C8E38D19BF0C8C00F06F13 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F8C8E38F19BF0C8C00F06F13 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F8C8E39319BF0C8C00F06F13 /* ComBoxView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ComBoxView-Info.plist"; sourceTree = "<group>"; };
+		F8C8E39519BF0C8C00F06F13 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F8C8E39719BF0C8C00F06F13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8C8E39919BF0C8C00F06F13 /* ComBoxView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ComBoxView-Prefix.pch"; sourceTree = "<group>"; };
+		F8C8E39A19BF0C8C00F06F13 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F8C8E39B19BF0C8C00F06F13 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F8C8E39E19BF0C8C00F06F13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8C8E3A019BF0C8C00F06F13 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F8C8E3A119BF0C8C00F06F13 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F8C8E3A319BF0C8C00F06F13 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F8C8E3A919BF0C8C00F06F13 /* ComBoxViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComBoxViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8C8E3AA19BF0C8C00F06F13 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F8C8E3B219BF0C8C00F06F13 /* ComBoxViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ComBoxViewTests-Info.plist"; sourceTree = "<group>"; };
+		F8C8E3B419BF0C8C00F06F13 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F8C8E3B619BF0C8C00F06F13 /* ComBoxViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComBoxViewTests.m; sourceTree = "<group>"; };
+		F8C8E3C419BF0CFD00F06F13 /* VComBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VComBoxView.h; sourceTree = "<group>"; };
+		F8C8E3C519BF0CFD00F06F13 /* VComBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VComBoxView.m; sourceTree = "<group>"; };
+		F8C8E3C719BF0DBE00F06F13 /* down_dark0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down_dark0.png; sourceTree = "<group>"; };
+		F8C8E3C819BF0DBE00F06F13 /* area.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = area.plist; sourceTree = "<group>"; };
+		F8C8E3CB19BF115400F06F13 /* VComBoxContainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VComBoxContainView.h; sourceTree = "<group>"; };
+		F8C8E3CC19BF115400F06F13 /* VComBoxContainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VComBoxContainView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8C8E38519BF0C8C00F06F13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8C8E38E19BF0C8C00F06F13 /* CoreGraphics.framework in Frameworks */,
+				F8C8E39019BF0C8C00F06F13 /* UIKit.framework in Frameworks */,
+				F8C8E38C19BF0C8C00F06F13 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8C8E3A619BF0C8C00F06F13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8C8E3AB19BF0C8C00F06F13 /* XCTest.framework in Frameworks */,
+				F8C8E3AD19BF0C8C00F06F13 /* UIKit.framework in Frameworks */,
+				F8C8E3AC19BF0C8C00F06F13 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8C8E37F19BF0C8C00F06F13 = {
+			isa = PBXGroup;
+			children = (
+				F8C8E39119BF0C8C00F06F13 /* ComBoxView */,
+				F8C8E3B019BF0C8C00F06F13 /* ComBoxViewTests */,
+				F8C8E38A19BF0C8C00F06F13 /* Frameworks */,
+				F8C8E38919BF0C8C00F06F13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8C8E38919BF0C8C00F06F13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8C8E38819BF0C8C00F06F13 /* ComBoxView.app */,
+				F8C8E3A919BF0C8C00F06F13 /* ComBoxViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8C8E38A19BF0C8C00F06F13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8C8E38B19BF0C8C00F06F13 /* Foundation.framework */,
+				F8C8E38D19BF0C8C00F06F13 /* CoreGraphics.framework */,
+				F8C8E38F19BF0C8C00F06F13 /* UIKit.framework */,
+				F8C8E3AA19BF0C8C00F06F13 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8C8E39119BF0C8C00F06F13 /* ComBoxView */ = {
+			isa = PBXGroup;
+			children = (
+				F8C8E3C019BF0CA200F06F13 /* ComBoxView */,
+				F8C8E39A19BF0C8C00F06F13 /* AppDelegate.h */,
+				F8C8E39B19BF0C8C00F06F13 /* AppDelegate.m */,
+				F8C8E39D19BF0C8C00F06F13 /* Main.storyboard */,
+				F8C8E3A019BF0C8C00F06F13 /* ViewController.h */,
+				F8C8E3A119BF0C8C00F06F13 /* ViewController.m */,
+				F8C8E3A319BF0C8C00F06F13 /* Images.xcassets */,
+				F8C8E39219BF0C8C00F06F13 /* Supporting Files */,
+			);
+			path = ComBoxView;
+			sourceTree = "<group>";
+		};
+		F8C8E39219BF0C8C00F06F13 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8C8E3C719BF0DBE00F06F13 /* down_dark0.png */,
+				F8C8E3C819BF0DBE00F06F13 /* area.plist */,
+				F8C8E39319BF0C8C00F06F13 /* ComBoxView-Info.plist */,
+				F8C8E39419BF0C8C00F06F13 /* InfoPlist.strings */,
+				F8C8E39719BF0C8C00F06F13 /* main.m */,
+				F8C8E39919BF0C8C00F06F13 /* ComBoxView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F8C8E3B019BF0C8C00F06F13 /* ComBoxViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8C8E3B619BF0C8C00F06F13 /* ComBoxViewTests.m */,
+				F8C8E3B119BF0C8C00F06F13 /* Supporting Files */,
+			);
+			path = ComBoxViewTests;
+			sourceTree = "<group>";
+		};
+		F8C8E3B119BF0C8C00F06F13 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8C8E3B219BF0C8C00F06F13 /* ComBoxViewTests-Info.plist */,
+				F8C8E3B319BF0C8C00F06F13 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F8C8E3C019BF0CA200F06F13 /* ComBoxView */ = {
+			isa = PBXGroup;
+			children = (
+				F8C8E3C419BF0CFD00F06F13 /* VComBoxView.h */,
+				F8C8E3C519BF0CFD00F06F13 /* VComBoxView.m */,
+				F8C8E3CB19BF115400F06F13 /* VComBoxContainView.h */,
+				F8C8E3CC19BF115400F06F13 /* VComBoxContainView.m */,
+			);
+			path = ComBoxView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8C8E38719BF0C8C00F06F13 /* ComBoxView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8C8E3BA19BF0C8C00F06F13 /* Build configuration list for PBXNativeTarget "ComBoxView" */;
+			buildPhases = (
+				F8C8E38419BF0C8C00F06F13 /* Sources */,
+				F8C8E38519BF0C8C00F06F13 /* Frameworks */,
+				F8C8E38619BF0C8C00F06F13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ComBoxView;
+			productName = ComBoxView;
+			productReference = F8C8E38819BF0C8C00F06F13 /* ComBoxView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8C8E3A819BF0C8C00F06F13 /* ComBoxViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8C8E3BD19BF0C8C00F06F13 /* Build configuration list for PBXNativeTarget "ComBoxViewTests" */;
+			buildPhases = (
+				F8C8E3A519BF0C8C00F06F13 /* Sources */,
+				F8C8E3A619BF0C8C00F06F13 /* Frameworks */,
+				F8C8E3A719BF0C8C00F06F13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8C8E3AF19BF0C8C00F06F13 /* PBXTargetDependency */,
+			);
+			name = ComBoxViewTests;
+			productName = ComBoxViewTests;
+			productReference = F8C8E3A919BF0C8C00F06F13 /* ComBoxViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8C8E38019BF0C8C00F06F13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = vols;
+				TargetAttributes = {
+					F8C8E3A819BF0C8C00F06F13 = {
+						TestTargetID = F8C8E38719BF0C8C00F06F13;
+					};
+				};
+			};
+			buildConfigurationList = F8C8E38319BF0C8C00F06F13 /* Build configuration list for PBXProject "ComBoxView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8C8E37F19BF0C8C00F06F13;
+			productRefGroup = F8C8E38919BF0C8C00F06F13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8C8E38719BF0C8C00F06F13 /* ComBoxView */,
+				F8C8E3A819BF0C8C00F06F13 /* ComBoxViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8C8E38619BF0C8C00F06F13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8C8E3A419BF0C8C00F06F13 /* Images.xcassets in Resources */,
+				F8C8E3CA19BF0DBE00F06F13 /* area.plist in Resources */,
+				F8C8E39619BF0C8C00F06F13 /* InfoPlist.strings in Resources */,
+				F8C8E3C919BF0DBE00F06F13 /* down_dark0.png in Resources */,
+				F8C8E39F19BF0C8C00F06F13 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8C8E3A719BF0C8C00F06F13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8C8E3B519BF0C8C00F06F13 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8C8E38419BF0C8C00F06F13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8C8E3C619BF0CFD00F06F13 /* VComBoxView.m in Sources */,
+				F8C8E3A219BF0C8C00F06F13 /* ViewController.m in Sources */,
+				F8C8E39C19BF0C8C00F06F13 /* AppDelegate.m in Sources */,
+				F8C8E39819BF0C8C00F06F13 /* main.m in Sources */,
+				F8C8E3CD19BF115400F06F13 /* VComBoxContainView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8C8E3A519BF0C8C00F06F13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8C8E3B719BF0C8C00F06F13 /* ComBoxViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8C8E3AF19BF0C8C00F06F13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8C8E38719BF0C8C00F06F13 /* ComBoxView */;
+			targetProxy = F8C8E3AE19BF0C8C00F06F13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F8C8E39419BF0C8C00F06F13 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8C8E39519BF0C8C00F06F13 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F8C8E39D19BF0C8C00F06F13 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8C8E39E19BF0C8C00F06F13 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F8C8E3B319BF0C8C00F06F13 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8C8E3B419BF0C8C00F06F13 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8C8E3B819BF0C8C00F06F13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F8C8E3B919BF0C8C00F06F13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8C8E3BB19BF0C8C00F06F13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ComBoxView/ComBoxView-Prefix.pch";
+				INFOPLIST_FILE = "ComBoxView/ComBoxView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F8C8E3BC19BF0C8C00F06F13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ComBoxView/ComBoxView-Prefix.pch";
+				INFOPLIST_FILE = "ComBoxView/ComBoxView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F8C8E3BE19BF0C8C00F06F13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ComBoxView.app/ComBoxView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ComBoxView/ComBoxView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ComBoxViewTests/ComBoxViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F8C8E3BF19BF0C8C00F06F13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ComBoxView.app/ComBoxView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ComBoxView/ComBoxView-Prefix.pch";
+				INFOPLIST_FILE = "ComBoxViewTests/ComBoxViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8C8E38319BF0C8C00F06F13 /* Build configuration list for PBXProject "ComBoxView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8C8E3B819BF0C8C00F06F13 /* Debug */,
+				F8C8E3B919BF0C8C00F06F13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8C8E3BA19BF0C8C00F06F13 /* Build configuration list for PBXNativeTarget "ComBoxView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8C8E3BB19BF0C8C00F06F13 /* Debug */,
+				F8C8E3BC19BF0C8C00F06F13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F8C8E3BD19BF0C8C00F06F13 /* Build configuration list for PBXNativeTarget "ComBoxViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8C8E3BE19BF0C8C00F06F13 /* Debug */,
+				F8C8E3BF19BF0C8C00F06F13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8C8E38019BF0C8C00F06F13 /* Project object */;
+}
